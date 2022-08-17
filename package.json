@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel --no-cache",
+    "build": "turbo run build"
+  },
+  "dependencies": {
+    "turbo": "^1.4.3"
+  },
+  "packageManager": "yarn@3.2.2"
+}

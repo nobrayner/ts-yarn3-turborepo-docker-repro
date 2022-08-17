@@ -1,0 +1,13 @@
+{
+  "name": "@scope/utils",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
