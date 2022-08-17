@@ -3,3 +3,5 @@ version: "3.9"
 services:
   some-service:
     build: .
+    ports:
+      - "4576:4576"
